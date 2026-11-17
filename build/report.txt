@@ -1,0 +1,121 @@
+Formosa Duel (Taiwan) -> English Translation Build Report
+==========================================================
+Source ROM:   Formosa Duel (Taiwan).bin (1048576 bytes)
+Source SHA1:  8d0680e1322af21b20d5cee2c100b05cf4217815
+Source SHA256:d6697e349613f70812cb7815de04bd89027d7e5b72471a981d16f6c667099b99
+Patched ROM:  Formosa Duel (EN).bin (1048576 bytes)
+Patched SHA1: f05da358cb460f2dc7865213549b1f72e97c5a5e
+Patched SHA256:479e908e026673cf95e4a95edd896bb1b89a9cb788f8aa7e7a2a1c47e84c223b
+IPS Patch:    Formosa Duel (EN).ips (59333 bytes, round-trip VERIFIED)
+
+Relocated compressed blocks in 0x0EF8A8..0x100000: 32958 bytes used, 34458 bytes remaining
+----------------------------------------------------------
+  0x0EF8A8..0x0F08FC ( 4180 bytes)  Title0_gfx
+  0x0F08FC..0x0F10A2 ( 1958 bytes)  Title2_gfx
+  0x0F10A2..0x0F1783 ( 1761 bytes)  Menu1_gfx
+  0x0F1784..0x0F24A2 ( 3358 bytes)  Menu0_gfx
+  0x0F24A2..0x0F2CE8 ( 2118 bytes)  Select0_gfx
+  0x0F2CE8..0x0F31DB ( 1267 bytes)  Game2_gfx
+  0x0F31DC..0x0F3DEE ( 3090 bytes)  BG_8A_gfx
+  0x0F3DEE..0x0F4D53 ( 3941 bytes)  BG_8B_gfx
+  0x0F4D54..0x0F5F47 ( 4595 bytes)  BG_18_gfx
+  0x0F5F48..0x0F6A1D ( 2773 bytes)  BG_6A_gfx
+  0x0F6A1E..0x0F796B ( 3917 bytes)  BG_6B_gfx
+
+Fixed in-place patches:
+----------------------------------------------------------
+  0x0E4476..0x0E4A16 ( 1440 bytes)  Title0_map
+  0x009CA0..0x009CA8 (    8 bytes)  Title0_gfx_bank_ptrs
+  0x0E6A7E..0x0E6A9C (   30 bytes)  Title2_duel_sub_align
+  0x0E6612..0x0E67C2 (  432 bytes)  Title2_map
+  0x009CC8..0x009CD0 (    8 bytes)  Title2_gfx_bank_ptrs
+  0x0EC3A4..0x0EC4A0 (  252 bytes)  Menu1_map
+  0x009D84..0x009D8C (    8 bytes)  Menu1_gfx_bank_ptrs
+  0x0ECDC8..0x0ED1CC ( 1028 bytes)  Menu0_map
+  0x009D70..0x009D78 (    8 bytes)  Menu0_gfx_bank_ptrs
+  0x0E323C..0x0E38AC ( 1648 bytes)  Select0_map
+  0x009D5A..0x009D62 (    8 bytes)  Select0_gfx_bank_ptrs
+  0x0EEF84..0x0EF144 (  448 bytes)  Game2_map
+  0x009D1A..0x009D22 (    8 bytes)  Game2_gfx_bank_ptrs
+  0x0EA54C..0x0EA74C (  512 bytes)  DMA0_gfx_continue
+  0x0E960C..0x0E963C (   48 bytes)  DMA0_map_continue
+  0x0EB422..0x0EC362 ( 3904 bytes)  DMA1_gfx_win
+  0x0EAC4E..0x0EADEE (  416 bytes)  DMA1_map_win
+  0x017418..0x017488 (  112 bytes)  Stage1_map
+  0x01748A..0x0178AA ( 1056 bytes)  Stage1_gfx
+  0x017488..0x01748A (    2 bytes)  Stage1_nt
+  0x017A4E..0x017ABE (  112 bytes)  Stage2_map
+  0x017AC0..0x017EE0 ( 1056 bytes)  Stage2_gfx
+  0x017ABE..0x017AC0 (    2 bytes)  Stage2_nt
+  0x018144..0x0181B4 (  112 bytes)  Stage3_map
+  0x0181B6..0x0185B6 ( 1024 bytes)  Stage3_gfx
+  0x0181B4..0x0181B6 (    2 bytes)  Stage3_nt
+  0x01889A..0x01890A (  112 bytes)  Stage4_map
+  0x01890C..0x018D0C ( 1024 bytes)  Stage4_gfx
+  0x01890A..0x01890C (    2 bytes)  Stage4_nt
+  0x019010..0x019080 (  112 bytes)  Stage5_map
+  0x019082..0x019482 ( 1024 bytes)  Stage5_gfx
+  0x019080..0x019082 (    2 bytes)  Stage5_nt
+  0x019786..0x0197F6 (  112 bytes)  Stage6_map
+  0x0197F8..0x019C18 ( 1056 bytes)  Stage6_gfx
+  0x0197F6..0x0197F8 (    2 bytes)  Stage6_nt
+  0x019EFC..0x019F6C (  112 bytes)  Stage7_map
+  0x019F6E..0x01A36E ( 1024 bytes)  Stage7_gfx
+  0x019F6C..0x019F6E (    2 bytes)  Stage7_nt
+  0x01A672..0x01A6E2 (  112 bytes)  Stage8_map
+  0x01A6E4..0x01AB04 ( 1056 bytes)  Stage8_gfx
+  0x01A6E2..0x01A6E4 (    2 bytes)  Stage8_nt
+  0x01ADC8..0x01AE38 (  112 bytes)  Stage9_map
+  0x01AE3A..0x01B23A ( 1024 bytes)  Stage9_gfx
+  0x01AE38..0x01AE3A (    2 bytes)  Stage9_nt
+  0x02C412..0x02C774 (  866 bytes)  Rematch_banner
+  0x01D410..0x01DD70 ( 2400 bytes)  BG_8A_map
+  0x00537C..0x005380 (    4 bytes)  BG_8A_gfx_ptr_site
+  0x0053A0..0x0053A4 (    4 bytes)  BG_8A_gfx_nt_site
+  0x01B55E..0x01BEBE ( 2400 bytes)  BG_8B_map
+  0x00547E..0x005482 (    4 bytes)  BG_8B_gfx_ptr_site
+  0x0054A2..0x0054A6 (    4 bytes)  BG_8B_gfx_nt_site
+  0x02B6E8..0x02C048 ( 2400 bytes)  BG_18_map
+  0x00388C..0x003890 (    4 bytes)  BG_18_gfx_ptr_site
+  0x0038B0..0x0038B4 (    4 bytes)  BG_18_gfx_nt_site
+  0x015DAC..0x01670C ( 2400 bytes)  BG_6A_map
+  0x008E84..0x008E88 (    4 bytes)  BG_6A_gfx_ptr_site
+  0x008EA8..0x008EAC (    4 bytes)  BG_6A_gfx_nt_site
+  0x012B52..0x0134B2 ( 2400 bytes)  BG_6B_map
+  0x009032..0x009036 (    4 bytes)  BG_6B_gfx_ptr_site
+  0x009056..0x00905A (    4 bytes)  BG_6B_gfx_nt_site
+
+Translated entries (32):
+----------------------------------------------------------
+  沙 / 福 / 摩 / 爾 -> SA / FO / MO / R
+  請按START鍵 -> PRESS START
+  大對決 -> DUEL
+  設定選擇 -> OPTIONS
+  難度 -> LVL SET
+  按鍵 -> KEY SET
+  回合 -> RND SET
+  顏色 -> CLR SET
+  易 / 難 -> E / H
+  若望保祿 -> John Paul
+  呂不敗 -> Lady Lu
+  連鎖 -> CHAIN
+  繼續嗎 -> CONTINUE
+  勝 (badge) -> WIN
+  第1回 -> STAGE 1
+  第2回 -> STAGE 2
+  第3回 -> STAGE 3
+  第4回 -> STAGE 4
+  第5回 -> STAGE 5
+  第6回 -> STAGE 6
+  第7回 -> STAGE 7
+  第8回 -> STAGE 8
+  第9回 -> STAGE 9
+  再戰 -> REMATCH
+  Wallpaper Balloons (8A/8B/18) -> FO / R / MO / SA
+  下一組 -> NEXT
+  攻擊 ● 數 -> ATK ● CNT
+  勝 (HUD) -> WIN
+  等級 -> LEVEL
+  得分 -> SCORE
+  最大連鎖數 -> MAX CHAIN
+  最高得分數 -> TOP SCORE
