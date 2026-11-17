@@ -2,6 +2,15 @@
 
 Proportional pixel-art / Variable-Width Font (VWF) English localization for *Formosa Duel* (`Formosa Duel (Taiwan).bin`) on the Funtech Super A'Can. All localized sprite banks and background graphics preserve the original 1 MB ROM size (`1,048,576` bytes = `0x100000`) by recompressing modified tiles into unused tail ROM space (`0x0EF8A8..0x100000`) and updating descriptor pointers in place.
 
+## Screenshots
+
+<p>
+<img src="screenshots/1.png" width="400" alt="Title screen: Press Start">
+<img src="screenshots/2.png" width="400" alt="1P character select">
+<img src="screenshots/3.png" width="400" alt="VS screen, Stage 1">
+<img src="screenshots/4.png" width="400" alt="Puzzle match against the CPU">
+</p>
+
 ## How to Play
 
 Apply `build/Formosa Duel (EN).ips` to `Formosa Duel (Taiwan).bin` (1,048,576 bytes, CRC32 `b2bf31dc`,
